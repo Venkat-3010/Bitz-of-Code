@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./assets/editor.png" type="image/x-icon">
+    <title>Bitz-of-Code</title>
+</head>
+<body>
+    <section class="container">
+        <h1>Code Editor &#x1F600</h1>
+        <div class="editor">
+            <div class="left">
+                <label for="">HTML <img src="./assets/html-5.png" alt="hmtl icon"></label>
+                <textarea onkeyup="run()" spellcheck="false" name="" id="html-code"></textarea>
+                <label for="">CSS <img src="./assets/css-3.png" alt="css icon"></label>
+                <textarea onkeyup="run()" spellcheck="false" name="" id="css-code"></textarea>
+                <label for="">JavaScript <img src="./assets/js-file.png" alt="js icon"></label>
+                <textarea onkeyup="run()" spellcheck="false" id="js-code"></textarea>
+            </div>
+            <div class="right">
+                <label for="">Output <img src="./assets/play.png" alt="play icon"></label>
+                <iframe src="" id="output"></iframe>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
